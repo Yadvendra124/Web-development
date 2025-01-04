@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid grey;
+    border-top: 10px solid black;
+    animation: transformation 1s ease-in 0s infinite;
+    
+}
+@keyframes transformation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
