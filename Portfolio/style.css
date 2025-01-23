@@ -571,6 +571,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 100px;
 }
 
@@ -581,8 +582,6 @@ section{
     top: 100px;
     cursor: pointer;
     display: flex;
-    
-
 }
 .row img{
     width: 300px;
