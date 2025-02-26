@@ -1,0 +1,24 @@
+{
+  "name": "web-development",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"npx @tailwindcss/cli -i ./src/input.css -o ./Tailwind/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yadvendra124/Web-development.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yadvendra124/Web-development/issues"
+  },
+  "homepage": "https://github.com/Yadvendra124/Web-development#readme",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.7",
+    "tailwindcss": "^4.0.7"
+  }
+}
